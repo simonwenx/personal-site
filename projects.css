@@ -16,6 +16,8 @@ a:hover{
   width : 100%;
   display : flex;
   background-color : #08EF80;
+  align-self: center;
+  justify-content: center;
 }
 .return-div{
   position : fixed;
@@ -107,4 +109,8 @@ a:hover{
   font-size : 16px;
   margin-bottom : 5px;
   margin-top : 0;
+}
+.my-projects{
+  font-size : 30px;
+  color : black;
 }
