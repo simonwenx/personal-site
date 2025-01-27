@@ -1,0 +1,108 @@
+body{
+  margin : 0;
+  background-color : black;
+}
+a ,a:hover , a:visited , a:active{
+  text-decoration: none;
+  color : inherit;
+}
+a:hover{
+  text-decoration: underline;
+  color: black;
+}
+.header{
+  position : fixed;
+  height : 100px;
+  width : 100%;
+  display : flex;
+  background-color : #08EF80;
+}
+.return-div{
+  position : fixed;
+  left : 0;
+  top : 0;
+  display : flex;
+}
+.return{
+  margin : 5px;
+  padding : 5px;
+  height : 60px;
+  background-color : transparent;
+  color : black;
+  border-style : solid;
+  border-bottom : none;
+  border-right : none;
+  border-color : black;
+}
+.mid-header{
+  position : fixed;
+  top : 100px;
+  width : 100%;
+  height : 400px;
+  display : grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  align-items : center;
+  justify-content : space-evenly;
+}
+.rps-div , .tic-div{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 300px;
+}
+.rps , .tic{
+  position : fixed;
+  border : none;
+  background-color : black;
+  color : white;
+  font-size : 25px;
+  z-index : 1;
+}
+.rps-img , .tic-img{
+  margin-top : 70px;
+  height : 200px;
+  width : 240px;
+  transition : all 0.5s ease;
+}
+.rps-img:hover , .tic-img:hover{
+  height : 400px;
+  width : 340px;
+}
+.rps-view , .ttt-view{
+  font-size : 20px;
+  display : block;
+  height : 30px;
+  width : 250px;
+  border-radius : 3px;
+  background-color : rgb(180, 179, 179);
+  color : black;
+}
+.rps-view:hover , .ttt-view:hover{
+  opacity : 0.7;
+}
+.rps-view:active , .ttt-view:active{
+  opacity : 0.5;
+}
+.name-div{
+  position : fixed;
+  bottom : 0;
+  right : 0;
+  color : white;
+  font-size : 24px;
+  border-style : solid;
+  border-top : none;
+  border-left : none;
+  height : 80px;
+}
+.name{
+  margin-top : 30px;
+}
+.copyright{
+  position : fixed;
+  right : 0;
+  bottom : 0;
+  font-size : 16px;
+  margin-bottom : 5px;
+  margin-top : 0;
+}

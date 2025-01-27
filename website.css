@@ -1,0 +1,44 @@
+@font-face{
+  font-family : Montserrat;
+  src : url(icons/Montserrat-Italic-VariableFont_wght.ttf);
+}
+@font-face {
+  font-family: Roboto;
+  src: url(icons/Roboto-Black.ttf);
+}
+.phrase{
+  color : white;
+  font-size : 55px;
+  width : 500px;
+  font-family : Montserrat;
+}
+.introduction{
+  font-family : Roboto;
+  width : 400px;
+  font-size : 20px;
+  color : white;
+}
+.project{
+  height : 50px;
+  width : 240px;
+  display : flex;
+  align-items : center;
+  border-radius : 18px;
+  border : none;
+}
+.project:hover{
+  opacity : 0.8;
+}
+.project:active{
+  opacity : 0.4;
+}
+.Project-text{
+  cursor : pointer;
+  font-size : 20px;
+  width : 200px;
+  padding-left : 12.5px;
+}
+a, a:visited, a:link, a:hover, a:active {
+  text-decoration: none;
+  color: inherit;
+}

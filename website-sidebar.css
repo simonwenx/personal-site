@@ -1,0 +1,12 @@
+.left-sidebar{
+  position : fixed;
+  top : 150px;
+  left : 75px;
+}
+.right-sidebar{
+  color : white;
+  position : fixed;
+  right : 0;
+  top : 205px;
+  right : 75px;
+}

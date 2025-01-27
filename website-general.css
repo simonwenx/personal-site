@@ -1,0 +1,10 @@
+body{
+  margin : 0px;
+  min-height : 100vh;
+  background-color : black;
+  background-image : url(icons/pexels-pixabay-268533.jpg);
+  background-position : center;
+  background-repeat : no-repeat;
+  background-attachment : fixed;
+  background-size : cover;
+}

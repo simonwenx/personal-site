@@ -1,0 +1,67 @@
+@font-face {
+  font-family: Roboto;
+  src: url(icons/Roboto-Black.ttf);
+}
+@font-face{
+  font-family : Montserrat;
+  src : url(icons/Montserrat-Italic-VariableFont_wght.ttf);
+}
+.middle-section{
+  position : relative;
+  margin-top : 0px;
+  margin-left : 400px;
+  height : 100vh;
+}
+.hello{
+  font-family : Roboto;
+  color : rgb(249, 246, 246);
+  font-size : 42px;
+  margin : 0;
+  margin-bottom : 25px;
+}
+.about-me{
+  margin : 0;
+  width : 800px;
+  font-family : Montserrat;
+  color : white;
+  font-size : 22px;
+  padding-bottom : 125px; 
+}
+.location-div{
+  display : flex;
+  align-items : center;
+  width : 150px;
+}
+.location{
+  height : 24px;
+  width : 24px;
+}
+.location-text{
+  padding-left : 5px;
+  margin-top : -3px;
+  margin-bottom : 0px;
+  color : rgb(44, 144, 44);
+}
+.name{
+  margin-bottom : 2px;
+}
+.plane{
+  height : 50px;
+  width : 50px; 
+  margin : 0;
+  animation : left-to-right 5s ease-in-out infinite;
+  position : relative;
+}
+.hello-container{
+  display : flex;
+}
+@keyframes left-to-right {
+
+  0%{
+    left: 0%;
+  }
+  100% { 
+    left : 60%;
+  }
+
+}

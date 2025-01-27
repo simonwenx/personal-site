@@ -1,0 +1,25 @@
+@font-face{
+  font-family : Montserrat;
+  src : url(icons/Montserrat-Italic-VariableFont_wght.ttf);
+}
+.left-sidebar{
+  width : 300px;
+  position : fixed;
+  top : 150px;
+  left : 100px;
+} 
+.selfie{
+  height : 200px;
+  width : 180px;
+  border-radius : 10px;
+}
+.name{
+  font-size : 30px;
+  color : white;
+}
+.mini-description{
+  font-family : Montserrat;
+  color : white;
+  width : 170px;
+  font-size : 16px;
+}
