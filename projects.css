@@ -77,10 +77,14 @@ a:hover{
 .rps-view , .ttt-view{
   font-size : 20px;
   display : block;
-  height : 30px;
-  width : 250px;
+  height : 40px;
+  width : 200px;
   border-radius : 3px;
   color : white;
+  background-color : black;
+  border-style : solid;
+  border-color : white;
+  border-width : 1px;
 }
 .rps-view:hover , .ttt-view:hover{
   opacity : 0.7;
@@ -113,4 +117,18 @@ a:hover{
 .my-projects{
   font-size : 30px;
   color : black;
+}
+.lower-header{
+  position : fixed;
+  top : 300px;
+  width : 100%;
+  height : 400px;
+  display : grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  align-items : center;
+}
+.rps-link , .ttt-link{
+  display : flex;
+  align-items : center;
+  justify-content: center;
 }
