@@ -42,9 +42,12 @@ a:hover{
   display : grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   align-items : center;
-  justify-content : space-evenly;
 }
 .rps-div , .tic-div{
+  margin : 10px;
+  border-style : solid;
+  border-color : white;
+  border-radius : 30px;
   position: relative;
   display: flex;
   flex-direction: column;
@@ -66,7 +69,7 @@ a:hover{
   transition : all 0.5s ease;
 }
 .rps-img:hover , .tic-img:hover{
-  height : 400px;
+  height : 205px;
   width : 340px;
 }
 .rps-view , .ttt-view{
@@ -75,8 +78,7 @@ a:hover{
   height : 30px;
   width : 250px;
   border-radius : 3px;
-  background-color : rgb(180, 179, 179);
-  color : black;
+  color : white;
 }
 .rps-view:hover , .ttt-view:hover{
   opacity : 0.7;
