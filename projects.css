@@ -132,7 +132,7 @@ a:hover{
   align-items : center;
   justify-content: center;
 }
-.rps-link:hover , .ttt-link:hover{
+.rps-view:hover , .ttt-view:hover{
   background-color : white;
   color : black;
 }
