@@ -132,3 +132,7 @@ a:hover{
   align-items : center;
   justify-content: center;
 }
+.rps-link:hover , .ttt-link:hover{
+  background-color : white;
+  color : black;
+}
