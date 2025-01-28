@@ -65,7 +65,7 @@ a:hover{
   z-index : 1;
 }
 .rps-img , .tic-img{
-  margin-top : 70px;
+  margin-top : 45px;
   height : 200px;
   width : 240px;
   transition : all 0.5s ease;
